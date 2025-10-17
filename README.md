@@ -50,7 +50,10 @@ Predicting-market-volatility/
 │   ├── ticker_disturbution.png
 │   └── WSB_Graphs.png
 │
-└── README.md
+├── README.md
+└── requirements.txt
+
+
 
 ```
 
