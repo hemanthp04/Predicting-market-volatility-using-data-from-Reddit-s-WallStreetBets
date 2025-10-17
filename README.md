@@ -5,7 +5,7 @@ Predicting stock market movements using sentiment analysis from Reddit's r/WallS
 **Course**: UE23CS352A Machine Learning  
 **Institution**: PES UNIVERSITY  
 **Project Duration**: September 29 - October 13, 2025  
-**Team Members**: Hemanth.P , Hasrshini
+**Team Members**: Hemanth.P , Harshini Dharniraj
 
 ---
 
@@ -30,28 +30,27 @@ Our **Logistic Regression model achieved 70.6% accuracy** for GameStop (GME), de
 ## 🗂️ Project Structure
 
 ```
-wsb-stock-prediction/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── LICENSE                            # Project license
+Predicting-market-volatility/
 │
-├── data/
-│   ├── reddit_wallstreetbets.zip     # Original Kaggle dataset
-│   └── merged_data.csv               # Processed data (generated)
+├── Data/
+│   └── reddit_wsb.csv
 │
-├── notebooks/
-│   └── WSB_Stock_Prediction.ipynb    # Main analysis notebook
+├── Docs/
+│   ├── ML59_238_244_....pdf
+│   └── presentationML5....pdf
 │
-├── results/
-│   ├── model_comparison.png          # Performance comparison
-│   ├── confusion_matrix_logreg.png   # LogReg confusion matrix
-│   ├── nn_overfitting.png            # NN training curves
-│   ├── feature_importance.csv        # Top features
-│   └── ticker_distribution.png       # Stock mentions
+├── Notebooks/
+│   └── WSB_Stock_Prediction.ipynb
 │
-├── docs/
-   ├── project_report.pdf            # One-page project summary
-   └── presentation.pdf              # Slides deck
+├── Results/
+│   ├── confusion_matrix.png
+│   ├── feature_importance.png
+│   ├── nn_overfitting.png
+│   ├── performance_comparison.png
+│   ├── ticker_disturbution.png
+│   └── WSB_Graphs.png
+│
+└── README.md
 
 ```
 
